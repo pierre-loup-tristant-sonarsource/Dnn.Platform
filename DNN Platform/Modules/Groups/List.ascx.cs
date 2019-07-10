@@ -49,7 +49,7 @@ namespace DotNetNuke.Modules.Groups
         {
             if(!Page.IsValid) return;
 
-            Response.Redirect(Globals.NavigateURL(TabId, "", txtFilter.Text.Trim()));
+            Response.Redirect(Globals.NavigateURL(TabId, "", txtFilter.Text));
         }
     }
 }
